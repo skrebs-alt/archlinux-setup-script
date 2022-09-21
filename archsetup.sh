@@ -30,6 +30,6 @@ sudo git clone https://github.com/danielmiessler/SecLists.git ~/Documents/Wordli
 
 # install z shell
 sudo pacman -Syu
-sudo pacman -S --noconfirm #!/usr/bin/env zsh
+sudo pacman -S zsh --noconfirm #!/usr/bin/env zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
