@@ -18,7 +18,7 @@ sudo pacman --noconfirm -Syu
 sudo pacman -S --no-confirm git flameshot terminator
 
 #install pentest tools
-sudo pacman -S --noconfirm john enum4linux metasploit aircrack-ng arptools arpscan sqlmap burpsuite cupp cowpatty gobuster dirbuster fierce nikto hydra sherlock set transmission-gtk nmap empire dnsutils
+sudo pacman -S --noconfirm john enum4linux metasploit aircrack-ng arptools arp-scan sqlmap burpsuite cupp cowpatty gobuster dirbuster fierce nikto hydra sherlock set transmission-gtk nmap empire dnsutils
 
 # Create Folders
 mkdir ~/Documents/Scripts
@@ -30,6 +30,6 @@ sudo git clone https://github.com/danielmiessler/SecLists.git ~/Documents/Wordli
 
 # install z shell
 sudo pacman -Syu
-sudo pacman -S zsh --noconfirm #!/usr/bin/env zsh
+sudo pacman -S --noconfirm #!/usr/bin/env zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
